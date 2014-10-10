@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+
+    <title>Imoville - Empreendimentos Imobiliários</title>
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <!-- Define a viewport to mobile devices to use - telling the browser to assume that the page is as wide as the device (width=device-width) and setting the initial page zoom level to be 1 (initial-scale=1.0) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Web Font -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Include the bootstrap stylesheet -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="all">
+
+    <!-- Include the Bootstrap responsive utitlities stylesheet -->
+    <link href="css/_responsive-utilities.css" rel="stylesheet" media="all">
+
+    <!-- Include the Awesome Font stylesheet -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Include the bootstrap responsive stylesheet -->
+    <link href="css/responsive.css" rel="stylesheet" media="all">
+
+    <!-- Flexslider stylesheet -->
+    <link href="js/flexslider/flexslider.css" rel="stylesheet" media="all">
+
+    <!-- Pretty Photo stylesheet -->
+    <link href="js/prettyphoto/prettyPhoto.css" rel="stylesheet" media="all">
+
+    <!-- Pretty Photo stylesheet -->
+    <link href="js/swipebox/swipebox.css" rel="stylesheet" media="all">
+
+    <!-- Include the site main stylesheet -->
+    <link href="css/main.css" rel="stylesheet" media="all">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <!-- Start Header -->
+  <div class="header-wrapper">
+
+    <div class="container"><!-- Start Header Container -->
+
+        <header id="header" class="clearfix">
+
+            <div id="header-top" class="clearfix">
+
+                <h2 id="contact-email" style="font-weight:bold;">
+                    <i class="email"></i> CONTATO: (47) 3422-6900
+                </h2>
+
+                <!-- Social Navigation -->
+                <ul class="social_networks clearfix">
+                    <li class="facebook">
+                        <a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook fa-lg"></i></a>
+                    </li>
+                    <li class="twitter">
+                        <a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                    </li>
+                    <li class="gplus">
+                        <a target="_blank" href="https://plus.google.com/"><i class="fa fa-google-plus fa-lg"></i></a>
+                    </li>
+                    
+                </ul>
+
+                <div class="user-nav" style="font-weight:bold;">
+                    <a href="login.html"><i class="fa fa-sign-in"></i> ESPAÇO DO CLIENTE</a>
+                    
+                </div>
+
+            </div>
+
+
+            <!-- Logo Fachada -->
+            <img src="images/fachada_imoville.png" alt="Fachada Imoville">
+            
+
+            <div class="menu-and-contact-wrap">
+
+                <h2  class="contact-number"> &nbsp; <img src="images/whats.png"> 47 9949-4216 <span class="outer-strip"></span></h2>
+                <!-- Start Main Menu-->
+                <nav class="main-menu">
+                    <div class="menu-main-menu-container">
+                        <ul id="menu-main-menu" class="clearfix">
+                            <li class="current-menu-item current_page_item"><a href="index.html">HOME</a></li>
+                            <li><a href="empresa.html">CONHEÇA A IMOVILLE</a></li>
+                            <li><a href="lista-dos-imoveis.html">LISTA DOS IMÓVEIS</a></li>
+                            <li><a href="servicos.html">CONHEÇA NOSSOS SERVIÇOS</a></li>
+                            <li><a href="blog.html">BLOG IMOVILLE</a></li>
+                            <li class="current-menu-item current_page_item"><a href="contato.html">CONTATO</a></li>
+                        </ul>
+
+
+                    </div>
+                </nav><!-- End Main Menu -->
+
+            </div><!-- End .menu-and-contact-wrap -->
+
+        </header>
+
+    </div> <!-- End Header Container -->
+
+</div><!-- End Header -->
+
+<!-- Page Head -->
+<div class="page-head" style="background-repeat: no-repeat;background-position: center top;background-image: url('images/temp-images/page-head-image.jpg'); ">
+    <div class="container">
+        <div>&nbsp<br /> &nbsp<br /></div>
+        <section class="advance-search ">
+            <h3 class="search-heading">&nbsp <i class="fa fa-search"></i> &nbsp ENCONTRE SEU IMÓVEL</h3>
+            <div class="as-form-wrap">
+                <form class="advance-search-form clearfix" action="#" method="get">
+                    <div class="option-bar small">
+                        <label for="property-id-txt">ID do Imóvel</label>
+                        <input type="text" name="property-id" id="property-id-txt" value="" placeholder="ID do Imóvel" style="width:140px;">
+                    </div>
+                    <div class="option-bar small">
+                        <label>Pretensão</label>
+                        <span class="selectwrap">
+                            <select name="location" id="select-location" class="search-select">
+                                <option value="locação">Locação</option>
+                                <option value="venda">Venda</option>
+                                <option value="Todos" selected="selected">Todos</option>
+                            </select>
+                        </span>
+                    </div>
+
+                    <div class="option-bar small">
+                        <label>Tipo</label>
+                        <span class="selectwrap">
+                            <select name="status" id="select-status" class="search-select">
+                                <option value="Apartamento">Apartamento</option>
+                                <option value="Casa">Casa</option>
+                                <option value="todos" selected="selected">Todos</option>
+                            </select>
+                        </span>
+                    </div>
+
+                    <div class="option-bar small">
+                        <label>Valor</label>
+                        <span class="selectwrap">
+                            <select name="min-price" id="select-min-price" class="search-select">
+                                <option value="1000">$1,000</option>
+                                <option value="5000">$5,000</option>
+                                <option value="10000">$10,000</option>
+                                <option value="50000">$50,000</option>
+                                <option value="100000">$100,000</option>
+                                <option value="200000">$200,000</option>
+                                <option value="300000">$300,000</option>
+                                <option value="400000">$400,000</option>
+                                <option value="500000">$500,000</option>
+                                <option value="1000000">$1,000,000</option>
+                                <option value="5000000">$5,000,000</option>
+                                <option value="todos" selected="selected">Todos</option>
+                            </select>
+                        </span>
+                    </div>
+
+                    <div id="list1" class="dropdown-check-list">
+                        <label>Bairro</label>
+                        <span class="anchor">Todos</span>
+                        <ul class="items">
+                            <li><input type="checkbox" />Glória </li>
+                            <li><input type="checkbox" />Centro</li>
+                            <li><input type="checkbox" />Todos </li>
+                        </ul>
+                    </div>
+
+                    <script type="text/javascript">
+
+                    var checkList = document.getElementById('list1');
+                    checkList.getElementsByClassName('anchor')[0].onclick = function (evt) {
+                        if (checkList.classList.contains('visible'))
+                            checkList.classList.remove('visible');
+                        else
+                            checkList.classList.add('visible');
+                    }
+
+                    </script>
+
+                    &nbsp &nbsp &nbsp &nbsp  <input type="submit" value="Procurar" class=" real-btn btn">
+                </form>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+
+<!-- Content -->
+<div class="container contents single login-register">
+    <div class="row">
+        <div class="span12 main-wrap">
+
+            <h3 class="titulo-box">LOGIN E REGISTRO</h3>
+
+            <!-- Main Content -->
+            <div class="main">
+
+                <div class="inner-wrapper">
+                    
+                    <div class="row-fluid">
+
+                        <div class="span6">
+
+                            <p class="info-text" style="font-size:16px; color:black;">Já é um membro? Faça seu login!</p>
+                            <form id="login-form" class="login-form" action="http://www.inodesign.com.br/imoville/wp-login.php" method="post" enctype="multipart/form-data">
+                                <div class="form-option">
+                                    <label for="username">Usuário<span>*</span></label>
+                                    <input id="username" name="log" type="text" class="required" title="* Por favor coloque um usuário" autofocus required/>
+                                </div>
+                                <div class="form-option">
+                                    <label for="password">Senha<span>*</span></label>
+                                    <input id="password" name="pwd" type="password" class="required" title="* Por favor coloque uma senha!" required/>
+                                </div>
+                                <input type="hidden" name="redirect_to" value="http://www.inodesign.com.br/imoville" />
+                                <input type="submit" name="submit" value="Log in" class="real-btn login-btn" />                                            
+                            </form>
+
+                            <p class="forgot-password">
+                                <a class="toggle-forgot-form" href="#">Esqueci senha</a>
+                            </p>
+
+                            
+                        </div>
+
+                        <div class="span6">
+                            <p class="info-text" style="font-size:16px; color:black;">Ainda não tem uma conta? Faça seu registro!</p>
+                            <form action="http://www.inodesign.com.br/imoville/wp-login.php?action=register" id="register-form"  method="post">
+
+                                <div class="form-option">
+                                    <label for="username">Usuário<span>*</span></label>
+                                    <input id="username" name="user_login" type="text" class="required" title="* Por favor coloque um usuário" required/>
+                                </div>
+
+                                <div class="form-option">
+                                    <label for="password">Senha<span>*</span></label>
+                                    <input id="password" name="pwd" type="password" class="required" title="* Por favor coloque uma senha!" required/>
+                                </div>
+
+                                <div class="form-option">
+                                    <label for="user_email">Email<span>*</span></label>
+                                    <input id="user_email" name="user_email" type="text" class="email required" title="* Please provide valid email address!" required/>
+                                </div>
+
+                                <div class="form-option">
+                                    <label for="user_email">Fone<span>*</span></label>
+                                    <input id="user_email" name="user_email" type="text" class="email required" title="* Please provide valid email address!" required/>
+                                </div>
+
+                                <div class="form-option">
+                                    <label for="user_email">Endereço<span>*</span></label>
+                                    <input id="user_email" name="user_email" type="text" class="email required" title="* Please provide valid email address!" required/>
+                                </div>
+
+                                <input type="hidden" name="user-cookie" value="1" />
+                                <input type="submit" name="user-submit" value="REGISTRE-SE" class="real-btn register-btn" />
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div><!-- End Main Content -->
+
+        </div> <!-- End span12 -->
+
+    </div><!-- End contents row -->
+
+</div><!-- End Content -->
+
+<div class="container page-carousel">
+    <div class="row">
+        <div class="span12">
+            <section class="brands-carousel  clearfix">
+                <h3><span>ACESSE</span></h3>
+                <div class="jcarousel-container">
+                    <div class="jcarousel-clip" style="height: 105px;">
+                        <ul class="brands-carousel-list clearfix">
+                            <li>
+                                <a href="espaco-do-cliente.html" title="Espaço do Cliente">
+                                    <img src="images/queralugar.png" alt="Espaço do Cliente" title="Espaço do Cliente">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="trabalhe-conosco.html" title="Trabalhe Conosco">
+                                    <img src="images/trabalheconosco.png" alt="Trabalhe Conosco" title="Trabalhe Conosco">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="simulacao.html" title="Simulação de Financiamento Imobiliário">
+                                    <img src="images/simulacao.png"  alt="Simulação de Financiamento Imobiliário" title="Simulação de Financiamento Imobiliário">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="anuncie-seu-imovel.html" title="Anuncie Aqui">
+                                    <img src="images/anuncieaqui.png"  alt="Anuncie Aqui" title="Anuncie Aqui">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="links-uteis.html" title="Links Úteis">
+                                    <img src="images/links.png"  alt="Links Úteis" title="Links Úteis">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="ligamos-para-voce.html" title="Ligamos para Você">
+                                    <img src="images/contato.png" alt="Ligamos para Você" title="Ligamos para Você">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="jcarousel-prev"></div>
+                    <div class="jcarousel-next"></div>
+                </div>
+            </section>
+            <section class="brands-carousel  clearfix">
+                <h3><span>PARCEIROS</span></h3>
+                <div class="jcarousel-container">
+                    <div class="jcarousel-clip">
+                        <ul class="brands-carousel-list clearfix">
+                            <li>
+                                <a target="_blank" href="#" title="Parceiro Imoville">
+                                    <img src="images/parceiro9.jpg"  alt="Parceiro Imoville" title="Parceiro Imoville">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#" title="Parceiro Imoville">
+                                    <img src="images/parceiro10.jpg"  alt="Parceiro Imoville" title="Parceiro Imoville">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#" title="Parceiro Imoville">
+                                    <img src="images/parceiro7.jpg" alt="Parceiro Imoville" title="Parceiro Imoville">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#" title="Parceiro Imoville">
+                                    <img src="images/parceiro8.jpg" alt="Parceiro Imoville" title="Parceiro Imoville">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#" title="Parceiro Imoville">
+                                    <img src="images/parceiro1.jpg"  alt="Parceiro Imoville" title="Parceiro Imoville">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#" title="Parceiro Imoville">
+                                    <img src="images/parceiro4.jpg" alt="Parceiro Imoville" title="Parceiro Imoville">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#" title="Parceiro Imoville">
+                                    <img src="images/parceiro5.jpg"  alt="Parceiro Imoville" title="Parceiro Imoville">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="jcarousel-prev"></div>
+                    <div class="jcarousel-next"></div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+<footer id="footer-wrapper">
+
+    <div id="footer" class="container">
+
+        <div class="row">
+
+            <div class="span3">
+                <section class="widget">
+                    <h3 class="title">MAPA DO SITE</h3>
+                    <ul>
+                        <li>
+                            <a href="index.html" title="HOME">HOME</a>
+                        </li>
+                        <li>
+                            <a href="empresa.html" title="CONHEÇA A IMOVILLE">CONHEÇA A IMOVILLE</a>
+                        </li>
+                        <li>
+                            <a href="lista-dos-imoveis.html" title="LISTA DOS IMÓVEIS">LISTA DOS IMÓVEIS</a>
+                        </li>
+                        <li>
+                            <a href="servicos.html" title="CONHEÇA NOSSOS SERVIÇOS">CONHEÇA NOSSOS SERVIÇOS</a>
+                        </li>
+                        <li>
+                            <a href="contato.html" title="CONTATO">CONTATO</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="span3">
+                <section class="widget">
+                    <h3 class="title">NOVIDADES NO E-MAIL</h3>
+                    <div class="textwidget">
+                        <p>A imobiliária Imoville oferece ao cliente o conforto de receber todas as melhores ofertas de nosso site. Cadastra-se e aproveite.</p>
+                        
+                        <div class="col-md-4">
+                          <input id="textinput" name="textinput" type="text" placeholder="Insira seu e-mail" class="form-control input-md">
+                      </div>
+
+                      
+                  </div>
+              </section>
+          </div>
+
+          <div class="span3">
+            <section class="widget">
+                <div class="fb-like-box" data-href="https://www.facebook.com/Imoville" data-width="250px" data-height="200px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+            </section>
+        </div>
+
+        <div class="span3">
+            <section class="widget"><h3 class="title">CONTATO</h3>
+                <div class="textwidget">
+                    <p>Rua Conselheiro Arp, 455, América - Joinville/SC</p>
+                    <p>Fone: 47 3422-6900 | 47 9949-4216 (WhatsApp)</p>
+                    <p>Email: <a href="mailto:contato@imoville.imb.br">contato@imoville.imb.br</a></p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</div>
+
+<!-- Footer Bottom -->
+<div id="footer-bottom" class="container">
+
+    <div class="row">
+        <div class="span6">
+            <p class="copyright">Imoville - Joinville/SC - Rua Conselheiro Arp, 455, América - (47) 3422-6900</p>
+        </div>
+        <div class="span6">
+            <p class="designed-by">Website by <a target="_blank" href="http://inodesign.com.br">inO Design</a></p>                        </div>
+        </div>
+
+
+                                                                <div class="row">
+                                                                    <div class="span12">
+                                                                    <p style="margin-top:25px; text-align:center; padding:2px; border:1px solid black; font-size:10px;">OS VALORES E DADOS INFORMADOS ESTÃO SUJEITOS A ALTERAÇÕES SEM PRÉVIO AVISO. AS SOLICITAÇÕES FEITAS PELO SITE NÃO IMPLICAM EM RESERVA, COMPRA, VENDA OU LOCAÇÃO DE QUAISQUER IMÓVEIS. DEVIDO À ROTATIVIDADE DOS IMÓVEIS ANUNCIADOS, PODE OCORRER DE HAVER IMÓVEIS NO SITE QUE JÁ TENHAM SIDO VENDIDOS OU ALUGADOS. A VENDA DOS IMÓVEIS NÃO INCLUEM AS MOBÍLIAS, EXCETO PARA IMÓVEIS MOBILIADOS.</p>
+                                                                </div>
+                                                                </div>
+
+    </div>
+    <!-- End Footer Bottom -->
+
+</footer>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/flexslider/jquery.flexslider.js"></script>
+<script src="js/elastislide/jquery.easing.1.3.js"></script>
+<script src="js/elastislide/jquery.elastislide.js"></script>
+<script src="js/prettyphoto/jquery.prettyPhoto.js"></script>
+<script src="js/swipebox/jquery.swipebox.min.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.jcarousel.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="js/jquery.selectbox.js"></script>
+<script src="js/jquery.transit.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-twitterFetcher.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
+
+
