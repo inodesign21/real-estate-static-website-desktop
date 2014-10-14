@@ -3850,7 +3850,7 @@ p.error {
   }
 
   .contact-number {
-    font-size: 20px;
+    font-size: 21px;
   }
   .contact-number .icon-phone {
     margin-right: 15px;
@@ -5634,6 +5634,9 @@ margin: 0px 0px;
   .img-chat {
   display: block;
   float:right;
+  }
+  .contact-number {
+    font-size: 20px;
   }
 
 
